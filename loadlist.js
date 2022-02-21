@@ -400,6 +400,16 @@ var screenRecorder_list = new Array(
     },
 ); // screen recorder
 
+var office_list = new Array(
+    {
+        img: "icons/openoffice.jpg",
+        name: "OpenOffice",
+        href: "https://www.openoffice.org",
+        language: "多国语言",
+        chargeType: "完全免费"
+    },
+); // office
+
 var template_list = new Array(
     {
         img: "icons/",
@@ -418,6 +428,20 @@ var other_list = new Array(
         language: "英文",
         chargeType: "完全免费"
     },
+    {
+        img: "icons/file-checksum-utility.png",
+        name: "File Checksum Utility",
+        href: "https://sourceforge.net/projects/filechecksumutility/",
+        language: "英文",
+        chargeType: "完全免费"
+    },
+    {
+        img: "icons/hash-tool.png",
+        name: "Hash Tool",
+        href: "https://www.microsoft.com/zh-cn/p/hash-tool/9nblggh4rrr2",
+        language: "英语",
+        chargeType: "个人免费"
+    },
 ); // other
 
 var listMap = new Map([
@@ -434,6 +458,7 @@ var listMap = new Map([
     ["downloadTool_tbody", [downloadTool_list, "下载工具"]],
     ["cdTool_tbody", [cdTool_list, "光盘刻录"]],
     ["screenRecorder_tbody", [screenRecorder_list, "录屏工具"]],
+    ["office_tbody", [office_list, "Office办公软件"]],
     
     
     ["other_tbody", [other_list, "其它"]],

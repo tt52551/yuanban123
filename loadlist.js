@@ -112,43 +112,43 @@ var hot_list = new Array({
     language: "中文",
     chargeType: "完全免费"
 }, {
-    img: "icons/7-zip.png",
+    img: "icons/7-zip.jpg",
     name: "7-ZIP解压",
     href: "https://www.7-zip.org/download.html",
     language: "英文",
     chargeType: "完全免费"
 }, {
-    img: "icons/adobe-reader.png",
+    img: "icons/adobe-reader.jpg",
     name: "Adobe PDF阅读器",
     href: "https://get.adobe.com/cn/reader/",
     language: "中文",
     chargeType: "基本版免费"
 }, {
-    img: "icons/kugo-music.png",
+    img: "icons/kugo-music.jpg",
     name: "酷狗音乐",
     href: "https://www.kugou.com/",
     language: "中文",
     chargeType: "完全免费"
 }, {
-    img: "icons/vlc.png",
+    img: "icons/vlc.jpg",
     name: "VLC视频播放器",
     href: "https://www.videolan.org/vlc/",
     language: "英文",
     chargeType: "完全免费"
 }, {
-    img: "icons/wps.ico",
+    img: "icons/wps.jpg",
     name: "WPS",
     href: "https://www.wps.cn",
     language: "中文",
     chargeType: "完全免费"
 }, {
-    img: "icons/youdao-dict.png",
+    img: "icons/youdao-dict.jpg",
     name: "有道词典",
     href: "https://www.youdao.com",
     language: "中文",
     chargeType: "基本版免费"
 },  {
-    img: "icons/sou-gou-pinyin.png",
+    img: "icons/sou-gou-pinyin.jpg",
     name: "搜狗拼音输入法",
     href: "https://pinyin.sogou.com",
     language: "中文",
@@ -156,19 +156,19 @@ var hot_list = new Array({
 },); // hot
 
 var pdf_list = new Array({
-    img: "icons/adobe-reader.png",
+    img: "icons/adobe-reader.jpg",
     name: "Adobe PDF阅读器",
     href: "https://get.adobe.com/cn/reader/",
     language: "中文",
     chargeType: "基本版免费"
 }, {
-    img: "icons/pdfsam.png",
+    img: "icons/pdfsam.jpg",
     name: "PDFsam PDF拆分合并",
     href: "https://pdfsam.org",
     language: "英文",
     chargeType: "基本版免费"
 }, {
-    img: "icons/fuxin-pdf-editor.png",
+    img: "icons/fuxin-pdf-editor.jpg",
     name: "福昕PDF编辑器",
     href: "https://editor.foxitsoftware.cn",
     language: "中文",
@@ -182,19 +182,19 @@ var pdf_list = new Array({
 },); // pdf
 
 var musicPlayer_list = new Array({
-    img: "icons/kugo-music.png",
+    img: "icons/kugo-music.jpg",
     name: "酷狗音乐",
     href: "https://www.kugou.com/",
     language: "中文",
     chargeType: "完全免费"
 }, {
-    img: "icons/foobar2000.png",
+    img: "icons/foobar2000.jpg",
     name: "foobar2000",
     href: "https://www.kugou.com/",
     language: "英文",
     chargeType: "完全免费"
 },{
-    img: "icons/aimp.png",
+    img: "icons/aimp.jpg",
     name: "AIMP",
     href: "https://www.aimp.ru",
     language: "英文",
@@ -202,13 +202,13 @@ var musicPlayer_list = new Array({
 },); // music player
 
 var videoPlayer_list = new Array({
-    img: "icons/vlc.png",
+    img: "icons/vlc.jpg",
     name: "VLC视频播放器",
     href: "https://www.videolan.org/vlc/",
     language: "英文",
     chargeType: "完全免费"
 }, {
-    img: "icons/potplayer.png",
+    img: "icons/potplayer.jpg",
     name: "PotPlayer",
     href: "https://potplayer.daum.net",
     language: "多国语言",
@@ -217,14 +217,14 @@ var videoPlayer_list = new Array({
 
 var photoEditor_list = new Array(
     {
-        img: "icons/gimp.png",
+        img: "icons/gimp.jpg",
         name: "GIMP",
         href: "https://www.gimp.org",
         language: "英文",
         chargeType: "完全免费"
     },
     {
-        img: "icons/hitfilm-express.png",
+        img: "icons/hitfilm-express.jpg",
         name: "HitFilm Express",
         href: "https://fxhome.com/product/hitfilm-express",
         language: "英文",
@@ -233,19 +233,19 @@ var photoEditor_list = new Array(
 ); // photo editor
 
 var avEditor_list = new Array({
-    img: "icons/audacity.png",
+    img: "icons/audacity.jpg",
     name: "Audacity",
     href: "https://www.audacityteam.org",
     language: "英文",
     chargeType: "完全免费"
 }, {
-    img: "icons/hitfilm-express.png",
+    img: "icons/hitfilm-express.jpg",
     name: "HitFilm Express",
     href: "https://fxhome.com/product/hitfilm-express",
     language: "英文",
     chargeType: "完全免费"
 },{
-    img: "icons/shotcut.png",
+    img: "icons/shotcut.jpg",
     name: "ShotCut",
     href: "https://shotcut.org",
     language: "英文",
@@ -259,63 +259,75 @@ var devTool_list = new Array({
     language: "英文",
     chargeType: "完全免费"
 }, {
-    img: "icons/chocolatey.png",
+    img: "icons/chocolatey.jpg",
     name: "Chocolatey",
     href: "https://chocolatey.org",
     language: "英文",
     chargeType: "完全免费"
 }, {
-    img: "icons/putty.png",
+    img: "icons/putty.jpg",
     name: "PuTTY",
     href: "https://www.putty.org",
     language: "英文",
     chargeType: "完全免费"
 }, {
-    img: "icons/winscp.png",
+    img: "icons/winscp.jpg",
     name: "WinSCP",
     href: "https://winscp.net/eng/index.php",
     language: "英文",
     chargeType: "完全免费"
 },{
-    img: "icons/greenshot.png",
+    img: "icons/greenshot.jpg",
     name: "Greenshot",
     href: "https://getgreenshot.org",
     language: "英文",
     chargeType: "完全免费"
 },{
-    img: "icons/colora-color-picker.png",
+    img: "icons/colora-color-picker.jpg",
     name: "Colora - Color Picker",
     href: "https://bluegrams.github.io/Colora",
     language: "英文",
     chargeType: "完全免费"
 },{
-    img: "icons/curl.png",
+    img: "icons/curl.jpg",
     name: "Curl",
     href: "https://curl.se",
     language: "英文",
     chargeType: "完全免费"
 },{
-    img: "icons/sourcetree.png",
+    img: "icons/sourcetree.jpg",
     name: "Sourcetree",
     href: "https://www.sourcetreeapp.com",
     language: "英文",
     chargeType: "完全免费"
 },{
-    img: "icons/winmerge.png",
+    img: "icons/winmerge.jpg",
     name: "WinMerge",
     href: "https://winmerge.org",
+    language: "英文",
+    chargeType: "完全免费"
+},{
+    img: "icons/nmap.jpg",
+    name: "Nmap",
+    href: "https://nmap.org",
+    language: "英文",
+    chargeType: "完全免费"
+},{
+    img: "icons/cmd.jpg",
+    name: "NetCat",
+    href: "https://nmap.org",
     language: "英文",
     chargeType: "完全免费"
 },); // dev
 
 var remote_list = new Array({
-    img: "icons/anydesk.png",
+    img: "icons/anydesk.jpg",
     name: "AnyDesk",
     href: "https://anydesk.com/zhs",
     language: "多国语言",
     chargeType: "个人版免费"
 }, {
-    img: "icons/teamviewer.png",
+    img: "icons/teamviewer.jpg",
     name: "TeamViewer",
     href: "https://www.teamviewer.com",
     language: "英语",
@@ -324,14 +336,14 @@ var remote_list = new Array({
 
 var textEditor_list = new Array(
     {
-        img: "icons/notepad-plug-plug.png",
+        img: "icons/notepad-plug-plug.jpg",
         name: "NotePad++",
         href: "https://notepad-plus-plus.org",
         language: "多国语言",
         chargeType: "完全免费"
     },
     {
-        img: "icons/markdownpad.png",
+        img: "icons/markdownpad.jpg",
         name: "MarkdownPad",
         href: "https://markdownpad.com",
         language: "英文",
@@ -351,7 +363,7 @@ var decompiler_list = new Array(
 
 var downloadTool_list = new Array(
     {
-        img: "icons/4k-video-downloader.png",
+        img: "icons/4k-video-downloader.jpg",
         name: "4K Video Downloader",
         href: "https://www.4kdownload.com",
         language: "英文",
@@ -361,7 +373,7 @@ var downloadTool_list = new Array(
 
 var cdTool_list = new Array(
     {
-        img: "icons/img-burn.png",
+        img: "icons/img-burn.jpg",
         name: "ImgBurn",
         href: "https://www.imgburn.com",
         language: "英文",
@@ -371,7 +383,7 @@ var cdTool_list = new Array(
 
 var screenRecorder_list = new Array(
     {
-        img: "icons/obs-studio.png",
+        img: "icons/obs-studio.jpg",
         name: "OBS Studio",
         href: "https://obsproject.com",
         language: "英文",
@@ -385,7 +397,7 @@ var screenRecorder_list = new Array(
         chargeType: "完全免费"
     },
     {
-        img: "icons/ev.png",
+        img: "icons/ev.jpg",
         name: "EV 录屏",
         href: "https://www.ieway.cn/evcapture.html",
         language: "中文",
@@ -410,6 +422,38 @@ var office_list = new Array(
     },
 ); // office
 
+var vm_list = new Array(
+    {
+        img: "icons/virtualbox.jpg",
+        name: "VirtualBox",
+        href: "https://www.virtualbox.org",
+        language: "多国语言",
+        chargeType: "完全免费"
+    },
+    {
+        img: "icons/vmware-workstation-player.jpg",
+        name: "VMware Workstation Player",
+        href: "https://customerconnect.vmware.com/cn",
+        language: "英文",
+        chargeType: "个人版免费"
+    },
+    {
+        img: "icons/qemu.jpg",
+        name: "QEMU",
+        href: "https://www.qemu.org",
+        language: "英文",
+        chargeType: "完全免费"
+    },
+    {
+        img: "icons/xen-project.jpg",
+        name: "Xen Project",
+        href: "https://xenproject.org",
+        language: "英文",
+        chargeType: "完全免费"
+    },
+
+); // vm
+
 var template_list = new Array(
     {
         img: "icons/",
@@ -422,21 +466,21 @@ var template_list = new Array(
 
 var other_list = new Array(
     {
-        img: "icons/fast-copy.png",
+        img: "icons/fast-copy.jpg",
         name: "Fast Copy",
         href: "https://fastcopy.jp",
         language: "英文",
         chargeType: "完全免费"
     },
     {
-        img: "icons/file-checksum-utility.png",
+        img: "icons/file-checksum-utility.jpg",
         name: "File Checksum Utility",
         href: "https://sourceforge.net/projects/filechecksumutility/",
         language: "英文",
         chargeType: "完全免费"
     },
     {
-        img: "icons/hash-tool.png",
+        img: "icons/hash-tool.jpg",
         name: "Hash Tool",
         href: "https://www.microsoft.com/zh-cn/p/hash-tool/9nblggh4rrr2",
         language: "英语",
@@ -459,6 +503,7 @@ var listMap = new Map([
     ["cdTool_tbody", [cdTool_list, "光盘刻录"]],
     ["screenRecorder_tbody", [screenRecorder_list, "录屏工具"]],
     ["office_tbody", [office_list, "Office办公软件"]],
+    ["vm_tbody", [vm_list, "虚拟机"]],
     
     
     ["other_tbody", [other_list, "其它"]],

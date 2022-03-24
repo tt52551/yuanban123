@@ -359,6 +359,13 @@ var decompiler_list = new Array(
         language: "英文",
         chargeType: "完全免费"
     },
+    {
+        img: "icons/default.jpg",
+        name: "Snowman",
+        href: "https://derevenets.com",
+        language: "英文",
+        chargeType: "完全免费"
+    },
 ); // decompiler
 
 var downloadTool_list = new Array(
@@ -414,9 +421,23 @@ var screenRecorder_list = new Array(
 
 var office_list = new Array(
     {
+        img: "icons/wps.jpg",
+        name: "WPS",
+        href: "https://www.wps.cn",
+        language: "中文",
+        chargeType: "完全免费"
+    },
+    {
         img: "icons/openoffice.jpg",
         name: "OpenOffice",
         href: "https://www.openoffice.org",
+        language: "多国语言",
+        chargeType: "完全免费"
+    },
+    {
+        img: "icons/libreoffice.jpg",
+        name: "LibreOffice",
+        href: "https://www.libreoffice.org",
         language: "多国语言",
         chargeType: "完全免费"
     },
@@ -453,6 +474,37 @@ var vm_list = new Array(
     },
 
 ); // vm
+
+var dataRecovery_list = new Array(
+    {
+        img: "icons/testdisk.jpg",
+        name: "TestDisk",
+        href: "https://www.cgsecurity.org",
+        language: "英文",
+        chargeType: "完全免费"
+    },
+    {
+        img: "icons/photorec.jpg",
+        name: "PhotoRec",
+        href: "https://www.cgsecurity.org",
+        language: "英文",
+        chargeType: "完全免费"
+    },
+    {
+        img: "icons/wisecleaner.jpg",
+        name: "Wise Data Recovery",
+        href: "https://www.wisecleaner.com.cn",
+        language: "多国语言",
+        chargeType: "基本版免费"
+    },
+    {
+        img: "icons/disk-drill.jpg",
+        name: "Disk Drill",
+        href: "https://www.cleverfiles.com/cn",
+        language: "多国语言",
+        chargeType: "基本版免费"
+    },
+); // dataRecovery
 
 var template_list = new Array(
     {
@@ -504,6 +556,7 @@ var listMap = new Map([
     ["screenRecorder_tbody", [screenRecorder_list, "录屏工具"]],
     ["office_tbody", [office_list, "Office办公软件"]],
     ["vm_tbody", [vm_list, "虚拟机"]],
+    ["dataRecovery_tbody", [dataRecovery_list, "数据恢复"]],
     
     
     ["other_tbody", [other_list, "其它"]],
